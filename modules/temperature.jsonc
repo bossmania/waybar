@@ -3,7 +3,7 @@
         "critical-threshold": 80,
         "format": "{temperatureC}°C {icon}",
         "format-critical": "{temperatureC}°C {icon}",
-        // "format-icons": ["", "", ""],
+        "format-icons": ["", "", ""],
         "tooltip-format": "{temperatureF}°F",
         "on-click": "alacritty -e btop",
         "on-click-right": "alacritty -e htop"
