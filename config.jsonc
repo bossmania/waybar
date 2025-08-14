@@ -14,7 +14,7 @@
     "modules-left": [
         "battery",
         "battery#bat2",
-        "backlight",
+        "group/brightness",
         "group/PC-info",
         "hyprland/window",
         "mpris"
@@ -40,16 +40,17 @@
     //the module configs
     "include": [
         "modules/battery.jsonc",
+        "modules/brightness.jsonc",
         "modules/cpu.jsonc",
         "modules/memory.jsonc",
         "modules/temperature.jsonc",
         "modules/disk.jsonc",
-        "modules/group.jsonc",
+        "modules/PC-info.jsonc",
+
         "modules/hyprland.jsonc",
+        "modules/clock.jsonc",
 
         "modules/tray.jsonc",
-        "modules/clock.jsonc",
-        "modules/backlight.jsonc",
         "modules/power-profiles-daemon.jsonc",
         "modules/network.jsonc",
         "modules/pulseaudio.jsonc",

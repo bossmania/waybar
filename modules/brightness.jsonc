@@ -1,0 +1,26 @@
+{
+    //group the backlight and slider togethor
+    "group/brightness": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-main",
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "backlight",
+            "backlight/slider"
+        ]
+    },
+    //brightness value
+    "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    //brightness slider
+    "backlight/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
+    }
+}
