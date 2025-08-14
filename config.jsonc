@@ -45,6 +45,8 @@
         "modules/temperature.jsonc",
         "modules/disk.jsonc",
         "modules/group.jsonc",
+        "modules/hyprland.jsonc",
+
         "modules/tray.jsonc",
         "modules/clock.jsonc",
         "modules/backlight.jsonc",

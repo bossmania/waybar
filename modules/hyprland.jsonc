@@ -1,0 +1,81 @@
+{
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "format": "{id} {icon}: {windows}",
+        "on-click": "activate",
+        
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "disable-scroll": false,
+        "warp-on-scroll": true,
+        "sort-by-number": true,
+
+        "window-rewrite-default": "?",
+        "window-rewrite": {
+            "class<firefox|org.mozilla.firefox|librewolf|floorp|mercury-browser|[Cc]achy-browser>": "",
+            "class<zen>": "󰰷",
+            "class<waterfox|waterfox-bin>": "",
+            "class<microsoft-edge>": "",
+            "class<Chromium|Thorium|[Cc]hrome>": "",
+            "class<brave-browser>": "🦁",
+
+            "class<Alacritty>": "",
+            "class<kitty|konsole>": "",
+            "class<kitty-dropterm>": "",
+            "class<com.mitchellh.ghostty>": " ",
+            "class<org.wezfurlong.wezterm>": " ",
+
+            "class<[Tt]hunderbird|[Tt]hunderbird-esr>": "",
+            "class<eu.betterbird.Betterbird>": "",
+
+            "class<[Tt]elegram-desktop|org.telegram.desktop|io.github.tdesktop_x64.TDesktop>": "",
+            "class<discord|[Ww]ebcord|Vesktop>": "",
+
+            "class<mpv>": "",
+            "class<celluloid|Zoom>": "",
+            "class<Cider>": "󰎆",
+            "class<vlc>": "󰕼",
+            "class<[Ss]potify>": "",
+            "class<Plex>": "󰚺",
+
+            "class<virt-manager>": "",
+            "class<.virt-manager-wrapped>": "",
+            "class<virtualbox manager>": "💽",
+            "title<virtualbox>": "💽",
+            "class<remmina>": "🖥️",
+
+            "class<VSCode|code-url-handler|code-oss|codium|codium-url-handler|VSCodium>": "󰨞",
+            "class<dev.zed.Zed>": "󰵁",
+            "class<codeblocks>": "󰅩",
+            "class<mousepad>": "",
+            "class<libreoffice-writer>": "",
+            "class<libreoffice-startcenter>": "󰏆",
+            "class<libreoffice-calc>": "",
+            "title<.*nvim ~.*>": "",
+            "title<.*vim.*>": "",
+            "title<.*nvim.*>": "",
+            "class<jetbrains-idea>": "",
+
+            "class<obs|com.obsproject.Studio>": "",
+
+            "class<polkit-gnome-authentication-agent-1>": "󰒃",
+            "class<nwg-look>": "",
+            "class<[Pp]avucontrol|org.pulseaudio.pavucontrol>": "󱡫",
+            "class<steam>": "",
+            "class<thunar|nemo>": "󰝰",	
+            "class<Gparted>":"",
+            "class<gimp>": "",
+            "class<emulator>": "📱",
+            "class<android-studio>": "",
+            "class<org.pipewire.Helvum>": "󰓃",
+            "class<localsend>":"",
+            "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛",
+        },
+
+        "format-icons": {
+            // "active": "{id}",
+            "active": "",
+            "default": ""
+        }
+    }
+}
