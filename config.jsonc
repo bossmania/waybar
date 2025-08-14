@@ -23,7 +23,8 @@
     "modules-center": [
         "privacy",
         "hyprland/workspaces",
-        "clock"
+        "clock#time",
+        "clock#date"
     ],
     //interactable modules on the right
     "modules-right": [
@@ -48,7 +49,7 @@
         "modules/PC-info.jsonc",
 
         "modules/hyprland.jsonc",
-        "modules/clock.jsonc",
+        "modules/time.jsonc",
 
         "modules/tray.jsonc",
         "modules/power-profiles-daemon.jsonc",
