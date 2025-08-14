@@ -17,7 +17,8 @@
         "cpu",
         "memory",
         "temperature",
-        "disk",
+        "disk#root",
+        "disk#home",
         "backlight",
         "hyprland/window",
         "mpris"
@@ -46,6 +47,7 @@
         "modules/cpu.jsonc",
         "modules/memory.jsonc",
         "modules/temperature.jsonc",
+        "modules/disk.jsonc",
         "modules/tray.jsonc",
         "modules/clock.jsonc",
         "modules/backlight.jsonc",

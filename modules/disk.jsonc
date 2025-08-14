@@ -1,0 +1,16 @@
+{
+    "disk#root": {
+        "path": "/",
+        "interval": 10,
+        "format": "{percentage_free}% free on {path}",
+        "tooltip-format": "{used} used out of {total} on {path}",
+        "unit": "GB"
+    },
+    "disk#home": {
+        "path": "/home",
+        "interval": 10,
+        "format": "{percentage_free}% free on {path}",
+        "tooltip-format": "{used} used out of {total} on {path}",
+        "unit": "GB"
+    }
+}
