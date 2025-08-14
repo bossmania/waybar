@@ -1,7 +1,22 @@
 {
+    //group the audio and slider togethor
+    "group/audio": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-main",
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "pulseaudio",
+            "pulseaudio/slider"
+        ]
+    },
+
+    //see the volume of the speaker and mic
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
+        "scroll-step": 0,
+        "format": "{volume}% {icon} , {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
@@ -17,5 +32,12 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+
+    //use a slider to control the audio
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
     }
 }

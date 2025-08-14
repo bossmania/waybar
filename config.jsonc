@@ -27,7 +27,7 @@
     ],
     //interactable modules on the right
     "modules-right": [
-        "pulseaudio",
+        "group/audio",
         "network",
         "bluetooth",
         "power-profiles-daemon",
@@ -51,10 +51,10 @@
         "modules/time.jsonc",
         "modules/privacy.jsonc",
 
+        "modules/pulseaudio.jsonc",
         "modules/tray.jsonc",
         "modules/power-profiles-daemon.jsonc",
         "modules/network.jsonc",
-        "modules/pulseaudio.jsonc",
         "modules/custom.jsonc"
     ]
 }
