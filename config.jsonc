@@ -28,10 +28,7 @@
     //interactable modules on the right
     "modules-right": [
         "group/audio",
-        "network",
-        "bluetooth",
-        "power-profiles-daemon",
-        "keyboard-state",
+        "group/PC-control",
         "tray",
         "custom/power"
     ],
@@ -55,6 +52,7 @@
         "modules/network.jsonc",
         "modules/bluetooth.jsonc",
         "modules/power-profiles-daemon.jsonc",
+        "modules/PC-control.jsonc",
         "modules/tray.jsonc",
         "modules/custom.jsonc"
     ]

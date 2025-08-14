@@ -1,0 +1,15 @@
+{
+    "group/PC-control": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-main",
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "network",
+            "power-profiles-daemon",
+            "bluetooth"
+        ]
+    }
+}
