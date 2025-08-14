@@ -2,6 +2,8 @@
     "cpu": {
         "interval": 10,
         "format": "{usage}% ",
-        "tooltip": true
+        "tooltip": true,
+        "on-click": "alacritty -e btop",
+        "on-click-right": "alacritty -e htop"
     }
 }
