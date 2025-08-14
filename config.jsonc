@@ -44,10 +44,10 @@
     "include": [
         "modules/battery.jsonc",
         "modules/cpu.jsonc",
+        "modules/memory.jsonc",
         "modules/tray.jsonc",
         "modules/clock.jsonc",
         "modules/temperature.jsonc",
-        "modules/memory.jsonc",
         "modules/backlight.jsonc",
         "modules/power-profiles-daemon.jsonc",
         "modules/network.jsonc",
