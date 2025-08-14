@@ -14,12 +14,8 @@
     "modules-left": [
         "battery",
         "battery#bat2",
-        "cpu",
-        "memory",
-        "temperature",
-        "disk#root",
-        "disk#home",
         "backlight",
+        "group/PC-info",
         "hyprland/window",
         "mpris"
     ],
@@ -48,6 +44,7 @@
         "modules/memory.jsonc",
         "modules/temperature.jsonc",
         "modules/disk.jsonc",
+        "modules/group.jsonc",
         "modules/tray.jsonc",
         "modules/clock.jsonc",
         "modules/backlight.jsonc",

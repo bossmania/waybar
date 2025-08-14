@@ -1,0 +1,17 @@
+{
+    "group/PC-info": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-main",
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "cpu",
+            "memory",
+            "temperature",
+            "disk#root",
+            "disk#home"
+        ]
+    }
+}
