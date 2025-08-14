@@ -53,6 +53,7 @@
 
         "modules/pulseaudio.jsonc",
         "modules/network.jsonc",
+        "modules/bluetooth.jsonc",
         "modules/tray.jsonc",
         "modules/power-profiles-daemon.jsonc",
         "modules/custom.jsonc"
