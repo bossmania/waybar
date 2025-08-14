@@ -78,5 +78,11 @@
             "class<localsend>":"",
             "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛"
         }
+    }, 
+    "hyprland/window": {
+        // configure how it looks
+        "format": "{}",
+        "icon": true,
+        "icon-size":18
     }
 }
