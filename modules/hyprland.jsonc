@@ -1,15 +1,22 @@
 {
     "hyprland/workspaces": {
+        //interacting with workspaces
         "all-outputs": true,
         "format": "{id} {icon}: {windows}",
-        "on-click": "activate",
-        
+        "on-click": "activate",        
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
         "disable-scroll": false,
         "warp-on-scroll": true,
         "sort-by-number": true,
 
+        //configure icon for 
+        "format-icons": {
+            "active": " ",
+            "default": ""
+        },
+
+        //show the icon for the applications  
         "window-rewrite-default": "?",
         "window-rewrite": {
             "class<firefox|org.mozilla.firefox|librewolf|floorp|mercury-browser|[Cc]achy-browser>": "",
@@ -69,13 +76,7 @@
             "class<android-studio>": "",
             "class<org.pipewire.Helvum>": "󰓃",
             "class<localsend>":"",
-            "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛",
-        },
-
-        "format-icons": {
-            // "active": "{id}",
-            "active": "",
-            "default": ""
+            "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛"
         }
     }
 }
