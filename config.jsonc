@@ -52,9 +52,9 @@
         "modules/privacy.jsonc",
 
         "modules/pulseaudio.jsonc",
+        "modules/network.jsonc",
         "modules/tray.jsonc",
         "modules/power-profiles-daemon.jsonc",
-        "modules/network.jsonc",
         "modules/custom.jsonc"
     ]
 }
