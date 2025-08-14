@@ -2,7 +2,7 @@
     "hyprland/workspaces": {
         //interacting with workspaces
         "all-outputs": true,
-        "format": "{id} {icon}: {windows}",
+        "format": "{id} {icon}: {windows}  |",
         "on-click": "activate",        
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
@@ -26,14 +26,14 @@
             "class<Chromium|Thorium|[Cc]hrome>": "",
             "class<brave-browser>": "🦁",
 
-            "class<Alacritty>": "",
-            "class<kitty|konsole>": "",
+            "class<Alacritty>": "",
+            "class<kitty|konsole>": "",
             "class<kitty-dropterm>": "",
             "class<com.mitchellh.ghostty>": " ",
             "class<org.wezfurlong.wezterm>": " ",
 
-            "class<[Tt]hunderbird|[Tt]hunderbird-esr>": "",
-            "class<eu.betterbird.Betterbird>": "",
+            "class<[Tt]hunderbird|[Tt]hunderbird-esr>": "󰛮",
+            "class<eu.betterbird.Betterbird>": "󰛮",
 
             "class<[Tt]elegram-desktop|org.telegram.desktop|io.github.tdesktop_x64.TDesktop>": "",
             "class<discord|[Ww]ebcord|Vesktop>": "",
@@ -41,6 +41,7 @@
             "class<mpv>": "",
             "class<celluloid|Zoom>": "",
             "class<Cider>": "󰎆",
+	    "class<org.strawberrymusicplayer.strawberry>": "󰈣",
             "class<vlc>": "󰕼",
             "class<[Ss]potify>": "",
             "class<Plex>": "󰚺",
