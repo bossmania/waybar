@@ -1,0 +1,21 @@
+{
+    "privacy": {
+        //modify icons
+        "icon-spacing": 0,
+        "icon-size": 16,
+        
+        //what modules to use and tooltip size
+        "modules": [
+        {
+            "type": "audio-in",
+            "tooltip": true,
+            "tooltip-icon-size": 16
+        },
+		{
+			"type": "screenshare",
+			"tooltip": true,
+			"tooltip-icon-size": 16
+		}
+	]
+    }
+}

@@ -83,6 +83,7 @@
         // configure how it looks
         "format": "{}",
         "icon": true,
-        "icon-size":18
+        "icon-size":18,
+        "max-length": 25
     }
 }

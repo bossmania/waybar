@@ -50,6 +50,7 @@
 
         "modules/hyprland.jsonc",
         "modules/time.jsonc",
+        "modules/privacy.jsonc",
 
         "modules/tray.jsonc",
         "modules/power-profiles-daemon.jsonc",
