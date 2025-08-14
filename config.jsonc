@@ -54,6 +54,6 @@
         "modules/power-profiles-daemon.jsonc",
         "modules/PC-control.jsonc",
         "modules/tray.jsonc",
-        "modules/custom.jsonc"
+        "modules/power.jsonc"
     ]
 }
