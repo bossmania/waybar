@@ -1,18 +1,20 @@
 {
     "battery": {
+        "bat": "BAT1",
         "states": {
-            // "good": 95,
+            "good": 95,
             "warning": 30,
             "critical": 15
         },
+        "interval": 1,
         "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-alt-click": "click",
+        "format-full": "{icon} Full",
+        "format-icons": ["", "", "", "", ""],
+        "format-time": "{H} h {M} min "
     },
     "battery#bat2": {
         "bat": "BAT2"

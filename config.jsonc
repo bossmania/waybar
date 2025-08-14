@@ -42,13 +42,13 @@
     
     //the module configs
     "include": [
+        "modules/battery.jsonc",
         "modules/tray.jsonc",
         "modules/clock.jsonc",
         "modules/cpu.jsonc",
         "modules/temperature.jsonc",
         "modules/memory.jsonc",
         "modules/backlight.jsonc",
-        "modules/battery.jsonc",
         "modules/power-profiles-daemon.jsonc",
         "modules/network.jsonc",
         "modules/pulseaudio.jsonc",
