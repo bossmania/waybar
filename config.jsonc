@@ -23,8 +23,7 @@
     "modules-center": [
         "privacy",
         "hyprland/workspaces",
-        "clock#time",
-        "clock#date"
+        "group/time"
     ],
     //interactable modules on the right
     "modules-right": [

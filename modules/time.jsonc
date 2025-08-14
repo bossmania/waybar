@@ -1,4 +1,18 @@
 	{
+    //group the time and date togethor
+    "group/time": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-main",
+            "transition-left-to-right": true
+        },
+        "modules": [
+            "clock#time",
+            "clock#date"
+        ]
+    },
+
     // show the current time
     "clock#time": {
         "interval": 1,
