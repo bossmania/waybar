@@ -97,9 +97,14 @@ window#waybar.chromium {
 #tray,
 #mode,
 #bluetooth,
+#custom-power,
 #power-profiles-daemon {
     padding: 0 10px;
     color: #ffffff;
+}
+
+#custom-power {
+    font-size: 22px;
 }
 
 #clock {
