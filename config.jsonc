@@ -9,6 +9,7 @@
     "start_hidden": false,
     "exclusive": true,
     "fixed-center": true,
+    "reload_style_on_change": true,
     
     //info modules on the left
     "modules-left": [
