@@ -5,8 +5,8 @@
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml",
 		"menu-actions": {
-			"logout": "hyprctl dispatch exit",
 			"lock": "loginctl lock-session",
+			"logout": "hyprctl dispatch exit",
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate",
 			"shutdown": "shutdown",

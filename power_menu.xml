@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <object class="GtkMenu" id="menu">
+  
+  <child>
+		<object class="GtkMenuItem" id="lock">
+			<property name="label">Lock Screen</property>
+    </object>
+	</child>
 
   <child>
 		<object class="GtkMenuItem" id="logout">
@@ -8,11 +14,6 @@
     </object>
 	</child>
 
-  <child>
-		<object class="GtkMenuItem" id="lock">
-			<property name="label">Lock Screen</property>
-    </object>
-	</child>
 
   <child>
     <object class="GtkSeparatorMenuItem" id="delimiter1"/>
@@ -33,17 +34,19 @@
   <child>
     <object class="GtkSeparatorMenuItem" id="delimiter2"/>
   </child>
-  <child>
-    <object class="GtkMenuItem" id="shutdown">
-      <property name="label">Shutdown</property>
-    </object>
-  </child>
 
   <child>
 		<object class="GtkMenuItem" id="reboot">
 			<property name="label">Reboot</property>
 		</object>
   </child>
+  
+  <child>
+    <object class="GtkMenuItem" id="shutdown">
+      <property name="label">Shutdown</property>
+    </object>
+  </child>
+
 
   </object>
 </interface>
