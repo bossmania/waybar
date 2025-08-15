@@ -12,7 +12,7 @@
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         "format-alt-click": "click",
-        "format-full": "{icon} Full",
+        "format-full": "{icon}   Full",
         "format-icons": ["", "", "", "", ""],
         "format-time": "{H} h {M} min "
     },
