@@ -2,7 +2,7 @@
     "hyprland/workspaces": {
         //interacting with workspaces
         "all-outputs": true,
-        "format": "{id} {icon}: {windows}  |",
+        "format": "{id}: {windows}",
         "on-click": "activate",        
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
@@ -10,11 +10,11 @@
         "warp-on-scroll": true,
         "sort-by-number": true,
 
-        //configure icon for 
-        "format-icons": {
-            "active": " ",
-            "default": ""
-        },
+        // //configure icon for 
+        // "format-icons": {
+        //     "active": " ",
+        //     "default": ""
+        // },
 
         //show the icon for the applications  
         "window-rewrite-default": "?",
