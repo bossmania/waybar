@@ -23,6 +23,7 @@
     //import modules in the center
     "modules-center": [
         "privacy",
+        "custom/swaync",
         "hyprland/workspaces",
         "group/time"
     ],
@@ -45,9 +46,10 @@
         "modules/disk.jsonc",
         "modules/PC-info.jsonc",
 
+        "modules/privacy.jsonc",
+        "modules/swaync.jsonc",
         "modules/hyprland.jsonc",
         "modules/time.jsonc",
-        "modules/privacy.jsonc",
 
         "modules/pulseaudio.jsonc",
         "modules/network.jsonc",
