@@ -10,12 +10,6 @@
         "warp-on-scroll": true,
         "sort-by-number": true,
 
-        // //configure icon for 
-        // "format-icons": {
-        //     "active": " ",
-        //     "default": ""
-        // },
-
         //show the icon for the applications  
         "window-rewrite-default": "?",
         "window-rewrite": {
@@ -41,7 +35,7 @@
             "class<mpv>": "",
             "class<celluloid|Zoom>": "",
             "class<Cider>": "󰎆",
-	    "class<org.strawberrymusicplayer.strawberry>": "󰈣",
+            "class<org.strawberrymusicplayer.strawberry>": "󰎆",
             "class<vlc>": "󰕼",
             "class<[Ss]potify>": "",
             "class<Plex>": "󰚺",
@@ -77,7 +71,10 @@
             "class<android-studio>": "",
             "class<org.pipewire.Helvum>": "󰓃",
             "class<localsend>":"",
-            "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛"
+            "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛",
+
+            "class<org.keepassxc.KeePassXC>": "󰯄",
+            "class<obsidian>": "󰯄"
         }
     }, 
     "hyprland/window": {
