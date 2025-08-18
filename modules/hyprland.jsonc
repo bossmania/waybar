@@ -74,7 +74,7 @@
             "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛",
 
             "class<org.keepassxc.KeePassXC>": "󰯄",
-            "class<obsidian>": "󰯄"
+            "class<obsidian>": "󱞁"
         }
     }, 
     "hyprland/window": {
