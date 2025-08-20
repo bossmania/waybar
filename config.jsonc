@@ -55,6 +55,7 @@
         "modules/network.jsonc",
         "modules/bluetooth.jsonc",
         "modules/power-profiles-daemon.jsonc",
+        "modules/idle_inhibitor.jsonc",
         "modules/PC-control.jsonc",
         "modules/tray.jsonc",
         "modules/power.jsonc"
