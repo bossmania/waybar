@@ -291,3 +291,15 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+#idle_inhibitor {
+    padding: 0px 10px;
+}
+
+#idle_inhibitor.deactivated {
+    background-color: #10668f;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ee3806;
+}
