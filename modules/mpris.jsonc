@@ -1,0 +1,10 @@
+{
+  "mpris": {
+    "format": "{status_icon} {title} by {artist}",
+    "format-paused": "{status_icon} {title} by {artist}",		
+    "status-icons": {
+      "playing": "▶",
+      "paused": "⏸"
+    },
+  }
+}

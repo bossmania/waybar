@@ -45,6 +45,7 @@
         "modules/temperature.jsonc",
         "modules/disk.jsonc",
         "modules/PC-info.jsonc",
+        "modules/mpris.jsonc",
 
         "modules/privacy.jsonc",
         "modules/swaync.jsonc",
