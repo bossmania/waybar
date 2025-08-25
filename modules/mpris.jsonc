@@ -1,10 +1,14 @@
 {
   "mpris": {
-    "format": "{status_icon} {title} by {artist}",
-    "format-paused": "{status_icon} {title} by {artist}",		
+    "format": "{status_icon} {title} by {artist} ({album}) [{position}:{length}]",
+    "format-paused": "{status_icon} {title} by {artist} ({album}) [{position}:{length}]",		
     "status-icons": {
       "playing": "▶",
       "paused": "⏸"
     },
+    "title-len": 25,
+    "artist-len": 20,
+    "album-len": 15,
+    "interval": 1
   }
 }
